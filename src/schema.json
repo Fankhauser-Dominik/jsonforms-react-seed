@@ -21,16 +21,6 @@
         }
       },
       "required": ["title"]
-    },
-    "order2": {
-      "type": "object",
-      "properties": {
-        "title": {
-          "type": "string",
-          "minLength": 5
-        }
-      },
-      "required": ["title"]
     }
   },
   "type": "object",
@@ -38,7 +28,7 @@
     "orders": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/order2",
+        "$ref": "#/definitions/order",
         "format": "html",
         "title": "Multi Text Area"
       }

@@ -39,13 +39,9 @@ const useStyles = makeStyles({
 });
 
 const initialData = {
-  orders: [
-    {
-      title: "42 killer robots",
-      ordered: true,
-      assignee: "Philip J. Fry",
-    },
-  ],
+  orders: {
+    title: "Test",
+  },
 };
 
 const renderers = [
